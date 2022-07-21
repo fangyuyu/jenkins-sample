@@ -18,7 +18,7 @@ func main() {
 	}
 
 	http.Handle("/", http.FileServer(http.Dir("static")))
-	log.Printf("Starting app on :%+v\n", port)
+	log.Printf("Starting app1 on :%+v\n", port)
 	http.ListenAndServe(":"+port, nil)
 }
 
