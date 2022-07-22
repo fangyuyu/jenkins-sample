@@ -14,7 +14,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: dpxx686/jenkins-demo:<BUILD_TAG>
+      - image: registry.ncloud.navinfo.com/jenkins-demo/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
